@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DBGrabber": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "FUTDB_API_KEY": "c40bcd98-23c6-454d-9062-2ea4fdbbfff0"
+      }
+    }
+  }
+}
