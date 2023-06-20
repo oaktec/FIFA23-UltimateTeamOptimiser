@@ -13,7 +13,7 @@ namespace FUT_Opti
         private const int PopulationMinSize = 10000;
         private const int PopulationMaxSize = 20000;
         private const float CrossoverProbability = 0.5f;
-        private const float MutationProbability = 0.5f;
+        private const float MutationProbability = 0.25f;
         private const int StagnationGenerations = 1000;
 
         private static readonly string[] PlayerPositions = new string[]
