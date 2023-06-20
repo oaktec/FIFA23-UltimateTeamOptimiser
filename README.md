@@ -1,6 +1,6 @@
 # Fifa23 Ultimate Team Optimiser
 
-FUT-Opti is a C# console application designed to optimise your player lineup for the FIFA 23 Ultimate Team mode, focusing on a 4-2-2-2 formation. It prioritises the higest possible team chemistry, followed by the highest team rating. You can specify the players you own, and the application will use a genetic algorithm to optimise the team composition.
+FUT-Opti is a C# console application that uses a genetic algorithm to optimise your player lineup for the FIFA 23 Ultimate Team mode, focusing on a 4-2-2-2 formation. It prioritises the highest possible team chemistry, followed by the highest total team rating.
 
 ## Getting Started
 
@@ -24,16 +24,10 @@ FUTOpti is the main application that uses the data from DBGrabber and runs the t
 
 ### DBGrabber
 
-DBGrabber is a console application that fetches, processes, and stores player data from the "FUTDB" API. The process involves:
-
-- Retrieving the API key from an environment variable
-- Using an HttpClient to request player data
-- Processing this data, including removal of accents from player names
-- Serialising the processed data into a JSON string
-- Saving the processed data in a local file "players.json"
+DBGrabber is a console application that fetches, processes, and stores player data from the "FUTDB" API.
 
 ## Future Plans
 
 No plans to continue development at this time.
 
-However, if I were to continue development, I would likely transfer it to a web application. This would allow a much improved interface, users could create an account and save their owned players and teams. I would also like to add more formation options, and improve the optimisation algorithm to allow for more customisation (e.g. best team consisting of only silver players etc.).
+However, if I were to continue development, I would likely transfer it to a web application. This would allow a much improved interface, users could create an account and save their owned players and teams. I would also like to add more formation options, and improve the optimisation algorithm to allow for more customisation (e.g. best team consisting of only silver players etc.). Splitting the selection between roulette wheel and tournament selection may also be a good idea, to increase the diversity of the population.
