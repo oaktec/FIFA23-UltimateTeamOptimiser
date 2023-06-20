@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUT-Opti", "FUT-Opti\FUT-Opti.csproj", "{7E0E869B-743B-4128-9EE1-847AACD2F0B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FUT-Opti", "FUT-Opti\FUT-Opti.csproj", "{7E0E869B-743B-4128-9EE1-847AACD2F0B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBGrabber", "DBGrabber\DBGrabber.csproj", "{B28A7D6F-1DCB-4BD7-BB9A-D67EB23E8637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBGrabber", "DBGrabber\DBGrabber.csproj", "{B28A7D6F-1DCB-4BD7-BB9A-D67EB23E8637}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF907419-677A-4177-8F44-3772C2105A46}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
