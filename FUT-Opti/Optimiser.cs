@@ -163,6 +163,7 @@ namespace FUT_Opti
 
                 if (bestFitness != latestFitness)
                 {
+                    Console.WriteLine($"---------------------");
                     latestFitness = bestFitness.GetValueOrDefault();
 
                     DisplayBestPlayers(bestChromosome);
