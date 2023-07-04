@@ -2,6 +2,8 @@
 
 FUT-Opti is a C# console application that uses a genetic algorithm to optimise your player lineup for the FIFA 23 Ultimate Team mode, focusing on a 4-2-2-2 formation. It prioritises the highest possible team chemistry, followed by the highest total team rating.
 
+![Screenshot](./screenshot.png)
+
 ## Getting Started
 
 To run this solution, you must first obtain an API key from the [FUTDB](https://futdb.app/) website. This key must be stored in an environment variable named "FUTDB_API_KEY". 
